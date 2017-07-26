@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent" >
+	<TextView
+		android:id="@+id/menu_text"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_alignParentLeft="true"
+		android:layout_alignParentTop="true"
+		android:gravity="center_vertical|center_horizontal"
+		android:height="60dp"
+		android:maxWidth="400dp"
+		android:minWidth="200dp"
+		android:text="Large Text"
+		android:textAppearance="?android:attr/textAppearanceLargePopupMenu"
+		android:textColor="@android:color/white" />
+</RelativeLayout>

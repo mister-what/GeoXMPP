@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">GeoXMPP++</string>
+    <string name="title_section1">Account &amp; Service</string>
+    <string name="title_section2">Roster</string>
+    <string name="title_section3">Contact Details</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_contact_detail">ContactDetailActivity</string>
+    <string name="title_activity_detail">DetailActivity</string>
+    <string name="action_add_user">Add contact</string>
+    <string name="pref_sms_storage_title">sms speicher</string>
+    <string name="title_settings_activity">General Settings</string>
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="title_activity_tab">TabActivity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="title_activity_roster_list">RosterList</string>
+    <string name="action_logout">logout</string>
+    <string name="title_activity_register">Register</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="remember">Remember</string>
+    <string name="register">Register</string>
+    <string name="login">Login</string>
+    <string name="login_header">Login:</string>
+    <string name="use_gps">Use GPS</string>
+    <string name="use_network">Use Network</string>
+    <string name="use_passive">Passive only\n(Saves battery)</string>
+    <string name="foreground_service">Make service sticky</string>
+    <string name="space_res">Space resoultion (in m)</string>
+    <string name="time_res">Time resoultion (in s)</string>
+    <string name="use_default_marker">red marker</string>
+    <string name="use_alt_marker_one">wheelchair marker</string>
+    <string name="use_alt_marker_two">purple marker</string>
+    <string name="retype_password">Retype password</string>
+    <string name="cancel">Cancel</string>
+    <string name="title_activity_credits">Credits</string>
+    <string name="credits_action_item">Credits</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_xmppmap">GeoXMPP++ Map</string>
+    <string name="action_friend_list">Friends</string>
+    <string name="show_map">Show Map</string>
+    <string name="version_name">v1.7.3 Pro</string>
+    <string name="delete">Delete selected</string>
+    <string name="delete_short">Delete</string>
+    <string name="send_selected">Send selected</string>
+    <string name="send_selected_short">Send</string>
+    <string name="action_share">Share</string>
+    <string name="action_reply">Reply</string>
+
+</resources>

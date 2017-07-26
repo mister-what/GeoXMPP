@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" ><item android:id="@+id/context_auth" android:title="@string/send_selected" android:visible="false"></item><item android:id="@+id/context_delete" android:title="@string/delete_short" android:titleCondensed="@string/delete_short" android:icon="@drawable/ic_action_delete"></item><item android:id="@+id/context_sharing" android:checkable="true" android:title="Share location"></item>
+    
+    
+    
+    
+    
+
+</menu>

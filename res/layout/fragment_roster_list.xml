@@ -1,0 +1,52 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/LinearLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:divider="?android:attr/dividerVertical"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:showDividers="none"
+    tools:context="de.napalm.geoxmpp_pp.RosterList$PlaceholderFragment" >
+
+    <LinearLayout
+        android:id="@+id/LinearLayout2"
+        android:layout_width="fill_parent"
+        android:layout_height="25dp"
+        android:layout_marginBottom="5dp"
+        android:layout_marginRight="30dp"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/headLeft"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Sharing"
+            android:textSize="12dp" />
+
+        <TextView
+            android:id="@+id/headCenter"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Contacts"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    </LinearLayout>
+
+    <ListView
+        android:id="@+id/rosterList"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:choiceMode="multipleChoice"
+        android:divider="@android:color/transparent"
+        android:dividerHeight="0dp"
+        android:drawSelectorOnTop="true"
+        android:listSelector="?android:attr/listChoiceBackgroundIndicator"
+        tools:listitem="@layout/drawer_roster_list_item" >
+    </ListView>
+
+</LinearLayout>

@@ -1,0 +1,11 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:tools="http://schemas.android.com/tools"
+	tools:context="de.napalm.geoxmpp_pp.XMPPMapActivity" >
+	<item
+		android:id="@+id/action_friend_list"
+		android:icon="@drawable/ic_action_friend_list"
+		android:orderInCategory="100"
+		android:showAsAction="always"
+		android:title="@string/action_friend_list"/>
+	<item android:id="@+id/action_perspective" android:showAsAction="always|withText" android:title="Perspective"></item>
+</menu>

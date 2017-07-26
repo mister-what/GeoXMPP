@@ -1,0 +1,154 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:id="@+id/FrameLayout1"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	tools:context="de.napalm.geoxmpp_pp.SettingsActivity" >
+	<ScrollView
+		android:id="@+id/scrollView1"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:layout_marginTop="10dp" >
+		<LinearLayout
+			android:layout_width="match_parent"
+			android:layout_height="match_parent"
+			android:orientation="vertical" >
+			<Switch
+				android:id="@+id/passiveSwitch"
+				android:layout_width="fill_parent"
+				android:layout_height="wrap_content"
+				android:layout_marginBottom="10dp"
+				android:layout_marginLeft="10dp"
+				android:layout_marginRight="10dp"
+				android:layout_marginTop="10dp"
+				android:text="@string/use_passive" />
+			<LinearLayout
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:layout_marginTop="10dp"
+				android:orientation="vertical" >
+				<LinearLayout
+					android:layout_width="fill_parent"
+					android:layout_height="wrap_content"
+					android:layout_marginLeft="10dp"
+					android:layout_marginRight="10dp"
+					android:layout_marginTop="5dp" >
+					<TextView
+						android:id="@+id/registerErrorText"
+						android:layout_width="wrap_content"
+						android:layout_height="match_parent"
+						android:layout_marginLeft="10dp"
+						android:layout_marginRight="10dp"
+						android:layout_weight="0.75"
+						android:gravity="center_vertical"
+						android:text="@string/space_res"
+						android:textAppearance="?android:attr/textAppearanceMedium" />
+					<EditText
+						android:id="@+id/spaceOutlet"
+						android:layout_width="70dp"
+						android:layout_height="wrap_content"
+						android:layout_marginBottom="5dp"
+						android:layout_weight="0.75"
+						android:ems="10"
+						android:inputType="number"
+						android:maxWidth="10dp"
+						android:width="30dp" />
+				</LinearLayout>
+				<SeekBar
+					android:id="@+id/spaceSlider"
+					android:layout_width="fill_parent"
+					android:layout_height="wrap_content"
+					android:layout_marginTop="5dp" />
+			</LinearLayout>
+			<LinearLayout
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:layout_marginTop="10dp"
+				android:orientation="vertical" >
+				<LinearLayout
+					android:layout_width="fill_parent"
+					android:layout_height="wrap_content"
+					android:layout_marginLeft="10dp"
+					android:layout_marginRight="10dp"
+					android:layout_marginTop="5dp" >
+					<TextView
+						android:id="@+id/TextView01"
+						android:layout_width="wrap_content"
+						android:layout_height="match_parent"
+						android:layout_marginLeft="10dp"
+						android:layout_marginRight="10dp"
+						android:layout_weight="0.75"
+						android:gravity="center_vertical"
+						android:text="@string/time_res"
+						android:textAppearance="?android:attr/textAppearanceMedium" />
+					<EditText
+						android:id="@+id/timeOutlet"
+						android:layout_width="70dp"
+						android:layout_height="wrap_content"
+						android:layout_marginBottom="5dp"
+						android:layout_weight="0.75"
+						android:ems="10"
+						android:inputType="number"
+						android:minWidth="25dp"
+						android:width="30dp" />
+				</LinearLayout>
+				<SeekBar
+					android:id="@+id/timeSlider"
+					android:layout_width="fill_parent"
+					android:layout_height="wrap_content"
+					android:layout_marginTop="5dp" />
+			</LinearLayout>
+			<LinearLayout
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content" >
+				<RadioGroup
+					android:id="@+id/markerRadio"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:layout_marginBottom="10dp"
+					android:layout_marginLeft="10dp"
+					android:layout_marginRight="10dp"
+					android:layout_marginTop="10dp" >
+					<RadioButton
+						android:id="@+id/radio0"
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content"
+						android:layout_marginBottom="5dp"
+						android:layout_marginTop="5dp"
+						android:checked="true"
+						android:text="@string/use_default_marker" />
+					<RadioButton
+						android:id="@+id/radio1"
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content"
+						android:layout_marginBottom="5dp"
+						android:layout_marginTop="5dp"
+						android:text="@string/use_alt_marker_one" />
+					<RadioButton
+						android:id="@+id/radio2"
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content"
+						android:layout_marginBottom="5dp"
+						android:layout_marginTop="5dp"
+						android:text="@string/use_alt_marker_two" />
+				</RadioGroup>
+				<ImageView
+					android:id="@+id/markerImage"
+					android:layout_width="fill_parent"
+					android:layout_height="fill_parent"
+					android:layout_marginBottom="15dp"
+					android:layout_marginLeft="15dp"
+					android:layout_marginRight="15dp"
+					android:layout_marginTop="15dp"
+					android:src="@drawable/ic_marker_two" />
+			</LinearLayout>
+			<TextView
+				android:id="@+id/versionView"
+				android:layout_width="fill_parent"
+				android:layout_height="wrap_content"
+				android:gravity="center"
+				android:text="@string/version_name"
+				android:textAppearance="?android:attr/textAppearanceSmall" />
+		</LinearLayout>
+	</ScrollView>
+</FrameLayout>

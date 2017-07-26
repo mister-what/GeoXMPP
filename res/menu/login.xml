@@ -1,0 +1,23 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:tools="http://schemas.android.com/tools"
+	tools:context="de.napalm.geoxmpp_pp.XMPPLoginActivity" >
+	<item android:id="@+id/action_map" android:icon="@drawable/ic_action_map" android:showAsAction="always" android:title="@string/show_map">
+	</item><item
+		android:id="@+id/add_user"
+		android:icon="@drawable/ic_add_user"
+		android:showAsAction="ifRoom"
+		android:title="Add User" android:visible="false">
+	</item><item
+		android:id="@+id/action_settings"
+		android:icon="@drawable/ic_action_settings"
+		android:showAsAction="ifRoom"
+		android:title="@string/action_settings" android:visible="false"/>
+	<item android:id="@+id/check_service_enabled" android:checkable="true" android:title="Sharing Service" android:visible="false" android:checked="true" android:showAsAction="never"></item><item
+		android:id="@+id/action_logout"
+		android:showAsAction="never"
+		android:title="@string/action_logout" android:visible="false">
+	</item>
+	
+	
+	
+</menu>
